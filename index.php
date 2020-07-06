@@ -15,7 +15,7 @@ $command = 'rm -rf build || rd /s /q build && npm run build'; ?>
     echo 'users.push(["'. $entry["LOGIN"] .'","'. $entry["NAME"] .'", "'. $entry["LAST_NAME"] .'", "'. $entry["SECOND_NAME"]. '", "' .$entry["WORK_POSITION"]. '", "' .$entry["WORK_DEPARTMENT"]. '"]);'; } ?>
 </script>
 <?
-require($_SERVER["DOCUMENT_ROOT"] . "/local/employees_list/build/index.html");
+require($_SERVER["DOCUMENT_ROOT"] . "/local/employees_list/public/index.html");
 ?>
 
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
